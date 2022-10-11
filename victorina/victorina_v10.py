@@ -1,0 +1,698 @@
+def baby_questions_one(ask_age):
+    while True:
+        ask_one_baby = input('Тебе нравиться погода на улице? - ')
+        if ask_one_baby == 'да':
+            print('Хорошая погода-залог хорошего настроения!')
+            break
+        elif ask_one_baby == 'нет':
+            print('Бывает,но не стоит расстраиваться,завтра погода точно будет лучше!')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def baby_questions_two(ask_age):
+    while True:
+        ask_two_baby = input('Ты хорошо себя ведешь? - ')
+        if ask_two_baby == 'да':
+            print('Молодец,так держать!')
+            break
+        elif ask_two_baby == 'нет':
+            print('Я думаю тебе стоит подумать над своим поведением и исправиться ')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+
+
+def baby_questions_three(ask_age):
+    while True:
+        ask_three_baby = input('Ты любишь гулять на улице? -  - ')
+        if ask_three_baby == 'да':
+            print('Свежий воздух-это хорошо!')
+            break
+        elif ask_three_baby == 'нет':
+            print('Гулять-весело,но если тебе не нравиться,то можно посидеть дома еще чуток)')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def baby_questions_four(ask_age):
+    while True:
+        ask_four_baby = input('Тебе нравиться слушать музыку? - ')
+        if ask_four_baby == 'да':
+            print('Я тоже люблю слушать музыку!')
+            break
+        elif ask_four_baby == 'нет':
+            print('Это твое дело,вот я например слушаю музыку,потому что она меня успокаивает.')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+################################################################################################
+def teener_questions_one(ask_age):
+    while True:
+        ask_one_tener = input('Ты любишь играть в футбол? - ')
+        if ask_one_tener == 'да':
+            print('Спорт это всегда хорошо!')
+            break
+        elif ask_one_tener == 'нет':
+            print('Может быть тебе нравятся другие игры,я тоже не люблю футюол')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def teener_questions_two(ask_age):
+    while True:
+        ask_two_tener = input('У тебя много друзей? - ')
+        if ask_two_tener == 'да':
+            print('Отлично,в компании друзей всегда веселей!')
+            break
+        elif ask_two_tener == 'нет':
+            print('Интроверт be like')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def teener_questions_three(ask_age):
+    while True:
+        ask_three_tener = input('У тебя много подруг? - ')
+        if ask_three_tener == 'да':
+            print('Отлично,в компании друзей всегда веселей!')
+            break
+        elif ask_three_tener == 'нет':
+            print('Интроверт be like')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def teener_questions_four(ask_age):
+    while True:
+        ask_four_tener = input('У тебя есть вторая половинка? - ')
+        if ask_four_tener == 'да':
+            print(f'wtf bro u are {ask_age} ')
+            break
+        elif ask_four_tener == 'нет':
+            print('Интроверт be like')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adult_questions_one(ask_age):
+    while True:
+        ask_one_adult = input('У тебя есть машина или другое средство передвижения? - ')
+        if ask_one_adult == 'да':
+            print('Круто,только не гоняй особо ')
+            break
+        elif ask_one_adult == 'нет':
+            print('Я уверен,что скоро появится')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adult_questions_two(ask_age):
+    while True:
+        ask_two_adult = input('У тебя есть работа? - ')
+        if ask_two_adult == 'да':
+            print('как бы не боло тяжело, работать надо')
+            break
+        elif ask_two_adult == 'нет':
+            print('Пора бы и найти работу')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adult_questions_three(ask_age):
+    while True:
+        ask_three_adult = input('Ты готов к самостоятельной жизни? - ')
+        if ask_three_adult == 'да':
+            print('Это большая ответственность,но я думаю ты справишься')
+            break
+        elif ask_three_adult == 'нет':
+            print('У тебя осталось не так много времени')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adult_questions_four(ask_age):
+    while True:
+        ask_four_adult = input('Ты любишь читать? - ')
+        if ask_four_adult == 'да':
+            print('Это классно,что ты развиваешься')
+            break
+        elif ask_four_adult == 'нет':
+            print('Я тоже не люблю)')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adultv2_questions_one(ask_age):
+    while True:
+        ask_one_adultv2 = input('ТЫ еже построил свою семью? - ')
+        if ask_one_adultv2 == 'да':
+            print('Это большая ответственность,но я думаю ты справишься')
+            break
+        elif ask_one_adultv2 == 'нет':
+            print('У тебя осталось не так много времени)')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adultv2_questions_two(ask_age):
+    while True:
+        ask_two_adultv2 = input('У тебя есть жена/муж? - ')
+        if ask_two_adultv2 == 'да':
+            print('Цени  этого человека')
+            break
+        elif ask_two_adultv2 == 'нет':
+            print('Это твой выбор)')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adultv2_questions_three(ask_age):
+    while True:
+        ask_three_adultv2 = input('У тебя есть мечта? - ')
+        if ask_three_adultv2 == 'да':
+            print('Стремись ее осущевствить')
+            break
+        elif ask_three_adultv2 == 'нет':
+            print('Мечатать не всегда плохо')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adultv2_questions_four(ask_age):
+    while True:
+        ask_four_adultv2 = input('У тебя есть дети? - ')
+        if ask_four_adultv2 == 'да':
+            print('Это большая ответственность,береги их/его/ее')
+            break
+        elif ask_four_adultv2 == 'нет':
+            print('Это твой выбор')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+
+
+def adultv3_questions_one(ask_age):
+    while True:
+        ask_one_adultv3 = input('Тебе нравится жить? - ')
+        if ask_one_adultv3 == 'да':
+            print('wow!')
+            break
+        elif ask_one_adultv3 == 'нет':
+            print('Бывает,главное не сдавайся')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adultv3_questions_two(ask_age):
+    while True:
+        ask_two_adultv3 = input('Ты уже стал тем кем мечтал стать в детсве? - ')
+        if ask_two_adultv3 == 'да':
+            print('Отлично,прсто прекрасно!')
+            break
+        elif ask_two_adultv3 == 'нет':
+            print('Бывает,главное не сдавайся')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+def adultv3_questions_three(ask_age):
+    while True:
+        ask_three_adultv3 = input('Ты устал? - ')
+        if ask_three_adultv3 == 'да':
+            print('GG bro,btw u need relax!')
+            break
+        elif ask_three_adultv3 == 'нет':
+            print('Cool, stay alive pls!')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+def adultv3_questions_four(ask_age):
+    while True:
+        ask_four_adultv3 = input('У тебя есть работа? - ')
+        if ask_four_adultv3 == 'да':
+            print('Отлично,надеюсь у тебя все хорошо')
+            break
+        elif ask_four_adultv3 == 'нет':
+            print(f'wtf bro u are {ask_age}')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+def adultv4_questions_one(ask_age):
+    while True:
+        ask_one_adultv4 = input('У тебя есть семья? - ')
+        if ask_one_adultv4 == 'да':
+            print('Отлично,надеюсь у тебя все хорошо')
+            break
+        elif ask_one_adultv4 == 'нет':
+            print('Это твой выбор,но учти времени менять решения еже нет')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+def adultv4_questions_two(ask_age):
+    while True:
+        ask_two_adultv4 = input('У тебя есть место жительства? - ')
+        if ask_two_adultv4 == 'да':
+            print('Прекрасно!')
+            break
+        elif ask_two_adultv4 == 'нет':
+            print('idk lol')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adultv4_questions_three(ask_age):
+    while True:
+        ask_three_adultv4 = input('Тебе нравится пиво? - ')
+        if ask_three_adultv4 == 'да':
+            print('Согласен - отличный напиток,но не злоупотребляй!')
+            break
+        elif ask_three_adultv4 == 'нет':
+            print('Алкоголь - плохо')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adultv4_questions_four(ask_age):
+    while True:
+        ask_four_adultv4 = input('Остались силы на дальнейшее сущесвтование? - ')
+        if ask_four_adultv4 == 'да':
+            print('Трать их с умом!')
+            break
+        elif ask_four_adultv4 == 'нет':
+            print('Good luck!')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+def adultv5_questions_one(ask_age):
+    while True:
+        ask_one_adultv5 = input('Тебе нравятся автомобили? - ')
+        if ask_one_adultv5 == 'да':
+            print('Отличный выбор')
+            break
+        elif ask_one_adultv5 == 'нет':
+            print('Мне тоже,слишком все сложно)')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+def adultv5_questions_two(ask_age):
+    while True:
+        ask_one_adultv5 = input('Дома или кафе - ')
+        if ask_one_adultv5.lower() == 'дома':
+            print('Дома всегда лцчше')
+            break
+        elif ask_one_adultv5 == 'кафе':
+            print('Интересный выбор')
+            break
+        else:
+            print('Ты можешь отвечать только "дома или кафе"')
+            continue
+
+def adultv5_questions_three(ask_age):
+    while True:
+        ask_one_adultv5 = input('Как ты относишься к нынешнему поколению (+ или -)? - ')
+        if ask_one_adultv5.lower() == '+':
+            print('Я удивлен')
+            break
+        elif ask_one_adultv5 == '-':
+            print('Интересный выбор')
+            break
+        else:
+            print('Ты можешь отвечать только "дома или кафе"')
+            continue
+
+
+def teener_questions_one_W(ask_age):
+    while True:
+        ask_one_teener_W = input('У тебя мног кукол? - ')
+        if ask_one_teener_W == 'да':
+            print('Много игрушек -  всегда хорошо!')
+            break
+        elif ask_one_teener_W == 'нет':
+            print('Думаю у тебя много других  интересов!')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+def teener_questions_three_W(ask_age):
+    while True:
+        ask_three_tener_W = input('У тебя много подруг? - ')
+        if ask_three_tener_W == 'да':
+            print('Отлично,в компании друзей всегда веселей!')
+            break
+        elif ask_three_tener_W == 'нет':
+            print('Интроверт be like')
+            break
+        else:
+            print('Ты можешь отвечать только "да или нет"')
+            continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################################################################################################
+
+print('Эта программа будет задавать вопросы а которые вам нужно ответить,\n'
+      'все вопросы будут заданы в зависимости от возраста того человека который ввел ссвой возраст в программе ')
+print('Отвечай "да или нет") ')
+
+print('Для начала опредилимся с полом')
+gen = input('М или Ж - ')
+if gen.lower() == 'М':
+    print('Отвечай "да или нет") ')
+    while True:
+        ask_age_M = int(input('Сколько вам лет? - '))
+        if ask_age_M <= 10:
+            duw = input(f"Оу,тебе всего {ask_age_M}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                baby_questions_one(ask_age_M)
+                print('')
+                baby_questions_four(ask_age_M)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    baby_questions_three(ask_age_M)
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    baby_questions_two(ask_age_M)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                else:
+                    print('Ты можешь отвечать только "да или нет"')
+                    continue
+
+            elif duw == 'нет':
+                print('эх,я думал мы подружимся,пока!')
+                break
+            else:
+                print('Ты можешь отвечать только "да или нет"')
+                continue
+
+
+
+
+        elif ask_age_M <= 15 and ask_age_M > 10:
+            duw = input(f"Оу,тебе уже {ask_age_M}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                teener_questions_one(ask_age_M)
+                print('')
+                teener_questions_four(ask_age_M)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    teener_questions_three(ask_age_M)
+
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    teener_questions_two(ask_age_M)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                else:
+                    print('Ты можешь отвечать только "да или нет"')
+                    continue
+
+        elif ask_age_M <= 20 and ask_age_M > 15:
+            duw = input(f"Емае,тебе {ask_age_M}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                adult_questions_one(ask_age_M)
+                print('')
+                adult_questions_four(ask_age_M)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    adult_questions_three(ask_age_M)
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    adult_questions_two(ask_age_M)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+            else:
+                print('Ты можешь отвечать только "да или нет"')
+                continue
+
+        elif ask_age_M <= 30 and ask_age_M > 20:
+            duw = input(f"Емае,тебе {ask_age_M}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                adultv2_questions_one(ask_age_M)
+                print('')
+                adultv2_questions_four(ask_age_M)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    adultv2_questions_three(ask_age_M)
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    adultv2_questions_two(ask_age_M)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+            else:
+                print('Ты можешь отвечать только "да или нет"')
+                continue
+
+        elif ask_age_M <= 40 and ask_age_M > 30:
+            duw = input(f"Здравствуй,тебе {ask_age_M}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                adultv3_questions_one(ask_age_M)
+                print('')
+                adultv3_questions_four(ask_age_M)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    adultv3_questions_three(ask_age_M)
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    adultv3_questions_two(ask_age_M)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                else:
+                    print('Ты можешь отвечать только "да или нет"')
+                    continue
+
+
+        elif ask_age_M <= 50 and ask_age_M > 40:
+            duw = input(f"Бычтро время летит,тебе уже {ask_age_M}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                adultv4_questions_one(ask_age_M)
+                print('')
+                adultv4_questions_four(ask_age_M)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    adultv4_questions_three(ask_age_M)
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    adultv4_questions_two(ask_age_M)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                else:
+                    print('Ты можешь отвечать только "да или нет"')
+                    continue
+
+        elif ask_age_M <= 60 and ask_age_M > 50:
+            duw = input(f"Бычтро время летит,тебе уже {ask_age_M}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                adultv4_questions_one(ask_age_M)
+                print('')
+                adultv4_questions_four(ask_age_M)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    adultv4_questions_three(ask_age_M)
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    adultv5_questions_two(ask_age_M)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                else:
+                    print('Ты можешь отвечать только "да или нет"')
+                    continue
+##################################################################################################################
+else:
+    print('Значит Ж, отлично присткпим к вопросам')
+    while True:
+        ask_age_W = int(input('Сколько вам лет? - '))
+        if ask_age_W <= 10:
+            duw = input(f"Оу,тебе всего {ask_age_W}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                baby_questions_one(ask_age_W)
+                print('')
+                baby_questions_four(ask_age_W)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    baby_questions_three(ask_age_W)
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    baby_questions_two(ask_age_W)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                else:
+                    print('Ты можешь отвечать только "да или нет"')
+                    continue
+
+            elif duw == 'нет':
+                print('эх,я думал мы подружимся,пока!')
+                break
+            else:
+                print('Ты можешь отвечать только "да или нет"')
+                continue
+
+
+        elif ask_age_W <= 15 and ask_age_W > 10:
+            duw = input(f"Оу,тебе уже {ask_age_W}\nты хочешь узнать первый вопрос? - ")
+            if duw == 'да':
+                print('Отлично!')
+                print('Я задам тебе пару вопросов для твоего возраста')
+                teener_questions_one_W(ask_age_W)
+                print('')
+                teener_questions_four(ask_age_W)
+                print('')
+                dul = input('Тебе понравилось? - ')
+                if dul.lower() == 'да':
+                    print('Отлично,давай продолжим!')
+                    print('')
+                    teener_questions_three_W(ask_age_W)
+                    print('')
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                elif dul.lower() == 'нет':
+                    print('Эх, но у меня есть еще один вопрос,посмотри и на него,может тебе понравится')
+                    print('')
+                    teener_questions_two(ask_age_W)
+                    print('Это были все мои вопросы,надеюсь тебя все понравилось!')
+                    break
+                else:
+                    print('Ты можешь отвечать только "да или нет"')
+                    continue
+
+
+
